@@ -46,8 +46,8 @@ else {
           <li className="hover:text-red-500 cursor-pointer ">Contact</li>
           </ul>
           <div className="hidden w-72 justify-between lg:flex">
-          <button className="bg-red-500 w-32 h-14 text-white">Register</button>
-          <button className="bg-red-500 w-32 h-14 text-white">login</button>
+          <button className="bg-red-400 w-32 h-14 text-white  hover:bg-red-500" >Register</button>
+          <button className="bg-red-400 w-32 h-14 text-white hover:bg-red-500" >login</button>
           </div>
         <img src={barslogo} className="w-5 lg:hidden" onClick={()=>setShowMenu(!showMenu)}></img>
       </div>

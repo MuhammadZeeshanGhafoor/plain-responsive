@@ -13,6 +13,7 @@ import dollar from "../../assets/comments-dollar-solid.svg";
 import mobile from "../../assets/mobile-alt-solid.svg";
 import globe from "../../assets/globe-solid.svg";
 import Footer from "../../Pages/components/footer/index";
+import "./styles.css"
 
 
 const HomePage = () => {
@@ -22,7 +23,7 @@ const HomePage = () => {
       {/* banner */}
       <div className="flex flex-col mt-44 w-full items-center lg:flex lg:flex-row lg:justify-around">
         <div className="w-11/12 flex flex-col lg:p-10">
-          <h1 className="text-2xl  font-extrabold text-gray-700 sm:text-5xl lg:text-4xl">
+          <h1 className="text-2xl  font-extrabold text-gray-700 sm:text-5xl lg:text-4xl ">
             Creative Multipurpose Tailwind CSS
             <span className="text-red-500">Template</span>
           </h1>
@@ -47,10 +48,10 @@ const HomePage = () => {
       </div>
       <div className="w-full items-center flex flex-col mt-10 lg:flex-row ">
         {/* 1st div */}
-        <div className="w-full flex flex-col items-center sm:flex-row sm:justify-around ">
+        <div className="w-full flex flex-col items-center sm:flex-row sm:justify-around " >
          {/* card1 */}
-          <div className="border-dashed w-10/12 p-2 flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:h-96 sm:w-5/12">
-          <div className=" border-8 border-red-300 rounded-full mt-10 hover:border-red-500"><img src={recycle} className="w-12 h-12"></img></div>
+          <div className="border-dashed w-10/12 p-2 flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:h-96 sm:w-5/12 card-animation">
+          <div className=" border-8 border-red-300 rounded-full mt-10 hover:border-red-500 circle"><img src={recycle} className="w-12 h-12"></img></div>
             <h1 className="uppercase text-xl font-semibold text-gray-700 mt-10 sm:text-3xl sm:p-4 sm:text-center">
               invest your cash
             </h1>
@@ -60,7 +61,7 @@ const HomePage = () => {
           </div>
 
           {/* card2 */}
-          <div className="border-dashed w-10/12 mt-10  flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:mt-0 sm:h-96 sm:w-5/12">
+          <div className="border-dashed w-10/12 mt-10  flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:mt-0 sm:h-96 sm:w-5/12 card-animation">
             <div className=" border-8 border-red-300 rounded-full mt-10 hover:border-red-500"><img src={business} className="w-12 h-12"></img></div>
             <h1 className="uppercase text-xl font-semibold text-gray-700 mt-10 sm:text-3xl sm:p-4 sm:text-center">
               invest in business
@@ -72,7 +73,7 @@ const HomePage = () => {
           </div>
         </div>
         {/* card3 */}
-        <div className="border-dashed w-10/12 mt-10  flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:w-5/12 sm:h-96 lg:mt-0 lg:mr-3">
+        <div className="border-dashed w-10/12 mt-10  flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:w-5/12 sm:h-96 lg:mt-0 lg:mr-3 card-animation">
         <div className=" border-8 border-red-300 rounded-full mt-10 hover:border-red-500"><img src={hand} className="w-12 h-12"></img></div>
             <h1 className="uppercase text-xl font-semibold text-gray-700 mt-10 sm:text-3xl sm:p-4 sm:text-center">
               return profit
@@ -125,7 +126,7 @@ const HomePage = () => {
         <div className="w-full flex flex-col items-center sm:flex-row sm:justify-around ">
          {/* card1 */}
           <div className="border-dashed w-10/12 p-2 flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:h-96 sm:w-5/12">
-          <div className=" border-8 border-red-300 rounded-full mt-10 hover:border-red-500"><img src={desk} className="w-12 h-12"></img></div>
+          <div className=" border-8 border-red-300 rounded-full mt-10 hover:border-red-500 circle"><img src={desk} className="w-12 h-12"></img></div>
             <h1 className=" text-xl font-semibold text-gray-700 mt-10 sm:text-3xl sm:p-4 sm:text-center ">
               Web Design
             </h1>
@@ -159,7 +160,7 @@ const HomePage = () => {
         {/* 1st div */}
         <div className="w-full flex flex-col items-center sm:flex-row sm:justify-around ">
          {/* card1 */}
-          <div className="border-dashed w-10/12 p-2 flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:h-96 sm:w-5/12">
+          <div className="border-dashed w-10/12 p-2 flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:h-96 sm:w-5/12 card-animation">
           <div className=" border-8 border-red-300 rounded-full mt-10 hover:border-red-500"><img src={globe} className="w-12 h-12"></img></div>
             <h1 className=" text-xl font-semibold text-gray-700 mt-10 sm:text-3xl sm:p-4 sm:text-center ">
               SEO Consultancy
@@ -170,7 +171,7 @@ const HomePage = () => {
           </div>
 
           {/* card2 */}
-          <div className="border-dashed w-10/12 mt-10  flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:mt-0 sm:h-96 sm:w-5/12">
+          <div className="border-dashed w-10/12 mt-10  flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:mt-0 sm:h-96 sm:w-5/12 card-animation">
             <div className=" border-8 border-red-300 rounded-full mt-10 hover:border-red-500"><img src={brands} className="w-12 h-12"></img></div>
             <h1 className=" text-xl font-semibold text-gray-700 mt-10 sm:text-3xl sm:p-4 sm:text-center ">
               Graphic Design
@@ -182,7 +183,7 @@ const HomePage = () => {
           </div>
         </div>
         {/* card3 */}
-        <div className="border-dashed w-10/12 mt-10  flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:w-5/12 sm:h-96 lg:mt-0 lg:mr-3">
+        <div className="border-dashed w-10/12 mt-10  flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:w-5/12 sm:h-96 lg:mt-0 lg:mr-3 card-animation">
         <div className=" border-8 border-red-300 rounded-full mt-10 hover:border-red-500 "><img src={dollar} className="w-12 h-12 "></img></div>
             <h1 className=" text-xl font-semibold text-gray-700 mt-10 sm:text-3xl sm:p-4 sm:text-center ">
               Business Consultancy
@@ -215,7 +216,7 @@ const HomePage = () => {
             {/* main div */}
               <div className="w-full flex flex-col items-center lg:flex-row lg:justify-around">
             {/* card1 */}
-            <div className="border-dashed w-10/12 mt-12  flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:w-6/12  lg:mt-10 lg:w-1/4 ">
+            <div className="border-dashed w-10/12 mt-12  flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:w-6/12  lg:mt-10 lg:w-1/4 card-animation">
           <div className=" border-8 bg-red-300 border-red-300 rounded-full mt-10 hover:border-red-500 hover:bg-red-500 items-center font-bold "><h1 className="text-2xl text-white">Basic</h1></div>
             <h1 className=" text-xl font-semibold text-gray-700 mt-10 sm:text-3xl sm:p-4 sm:text-center ">
              $19.00
@@ -227,7 +228,7 @@ const HomePage = () => {
           </div>
 
           {/* Card2 */}
-            <div className="border-dashed w-10/12 mt-12  flex flex-col items-center rounded-xl border-2  border-red-500 sm:w-6/12  lg:mt-10 lg:w-1/4 ">
+            <div className="border-dashed w-10/12 mt-12  flex flex-col items-center rounded-xl border-2  border-red-500 sm:w-6/12  lg:mt-10 lg:w-1/4 card-animation">
           <div className=" border-8  rounded-full mt-10 border-red-500 bg-red-500 items-center font-bold "><h1 className="text-2xl text-white">Standard</h1></div>
             <h1 className=" text-xl font-semibold text-gray-700 mt-10 sm:text-3xl sm:p-4 sm:text-center ">
               $39.00
@@ -239,7 +240,7 @@ const HomePage = () => {
           </div>
 
           {/* Card3 */}
-            <div className="border-dashed w-10/12 mt-12  flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:w-6/12  lg:mt-10 lg:w-1/4 ">
+            <div className="border-dashed w-10/12 mt-12  flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:w-6/12  lg:mt-10 lg:w-1/4 card-animation">
           <div className=" border-8 bg-red-300 border-red-300 rounded-full mt-10 hover:border-red-500 hover:bg-red-500 items-center font-bold "><h1 className="text-2xl text-white">Premium</h1></div>
             <h1 className=" text-xl font-semibold text-gray-700 mt-10 sm:text-3xl sm:p-4 sm:text-center ">
               $99.00
