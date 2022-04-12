@@ -22,7 +22,7 @@ const HomePage = () => {
       <NavigationBar />
       {/* banner */}
       <div className="flex flex-col mt-44 w-full items-center lg:flex lg:flex-row lg:justify-around">
-        <div className="w-11/12 flex flex-col lg:p-10">
+        <div className="w-11/12 flex flex-col lg:p-10 left-transform">
           <h1 className="text-2xl  font-extrabold text-gray-700 sm:text-5xl lg:text-4xl ">
             Creative Multipurpose Tailwind CSS
             <span className="text-red-500">Template</span>

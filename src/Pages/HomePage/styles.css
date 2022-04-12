@@ -1,7 +1,24 @@
 .card-animation:hover{
     animation: fadeIn  0.5s ease-in-out;
 }
-
+.left-transform :nth-child(1){
+    animation: leftToRight 0.7s ease-in-out;
+}
+.left-transform :nth-child(2){
+    animation: leftToRight 0.8s ease-in-out;
+}
+.left-transform :nth-child(3){
+    animation: leftToRight 0.9s ease-in-out;
+}
+@keyframes leftToRight {
+    0%{
+    transform: translateX(-300px);    
+    }
+    90%{
+        transform: translateX(10px);
+    }
+   
+}
 @keyframes fadeIn {
     0%{
         transform: scale(0.9);
