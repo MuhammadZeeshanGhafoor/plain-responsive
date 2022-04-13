@@ -86,7 +86,7 @@ const HomePage = () => {
       {/* Sect */}
       <div className="flex flex-col items-center lg:flex-row">            
           <img src={About} className="mt-44 w-11/12  sm:w-11/12 lg:-ml-96"></img>
-          <div className="w-10/12 flex flex-col justify-start mt-10 p-2 lg:p-4">
+          <div className="w-10/12 flex flex-col justify-start mt-10 p-2 lg:p-4 rightToLeft">
           <h3 className="text-base text-red-500 text-start font-semibold sm:text-xl ">Why Choose Us</h3>
           <h1 className="text-2xl text-gray-700 font-bold mt-5 sm:text-4xl lg:p-5">Your Goal is Our Achievement</h1>
           <p className=" text-gray-500 mt-10 lg:p-4">
@@ -125,7 +125,7 @@ const HomePage = () => {
         {/* 1st div */}
         <div className="w-full flex flex-col items-center sm:flex-row sm:justify-around ">
          {/* card1 */}
-          <div className="border-dashed w-10/12 p-2 flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:h-96 sm:w-5/12">
+          <div className="border-dashed w-10/12 p-2 flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:h-96 sm:w-5/12 card-animation">
           <div className=" border-8 border-red-300 rounded-full mt-10 hover:border-red-500 circle"><img src={desk} className="w-12 h-12"></img></div>
             <h1 className=" text-xl font-semibold text-gray-700 mt-10 sm:text-3xl sm:p-4 sm:text-center ">
               Web Design
@@ -135,7 +135,7 @@ const HomePage = () => {
           </div>
 
           {/* card2 */}
-          <div className="border-dashed w-10/12 mt-10  flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:mt-0 sm:h-96 sm:w-5/12">
+          <div className="border-dashed w-10/12 mt-10  flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:mt-0 sm:h-96 sm:w-5/12 card-animation">
             <div className=" border-8 border-red-300 rounded-full mt-10 hover:border-red-500"><img src={business} className="w-12 h-12"></img></div>
             <h1 className=" text-xl font-semibold text-gray-700 mt-10 sm:text-3xl sm:p-4 sm:text-center ">
               Digital Marketing
@@ -146,7 +146,7 @@ const HomePage = () => {
           </div>
         </div>
         {/* card3 */}
-        <div className="border-dashed w-10/12 mt-10  flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:w-5/12 sm:h-96 lg:mt-0 lg:mr-3">
+        <div className="border-dashed w-10/12 mt-10  flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:w-5/12 sm:h-96 lg:mt-0 lg:mr-3 card-animation">
         <div className=" border-8 border-red-300 rounded-full mt-10 hover:border-red-500"><img src={mobile} className="w-12 h-12"></img></div>
             <h1 className=" text-xl font-semibold text-gray-700 mt-10 sm:text-3xl sm:p-4 sm:text-center ">
             Mobile Apps            

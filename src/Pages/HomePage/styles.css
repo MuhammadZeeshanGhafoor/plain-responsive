@@ -10,6 +10,27 @@
 .left-transform :nth-child(3){
     animation: leftToRight 0.9s ease-in-out;
 }
+.rightToLeft :nth-child(1){
+    animation: rightToLeft 0.5s ease-in;
+}
+.rightToLeft :nth-child(2){
+    animation: rightToLeft 0.6s ease-in;
+}
+.rightToLeft :nth-child(3){
+    animation: rightToLeft 0.7s ease-in;
+}
+.rightToLeft :nth-child(4){
+    animation: rightToLeft 0.8s ease-in;
+}
+
+@keyframes rightToLeft {
+    0%{
+        transform: translateX(600px);    
+        }
+        90%{
+            transform: translateX(-10px);
+        }   
+}
 @keyframes leftToRight {
     0%{
     transform: translateX(-300px);    

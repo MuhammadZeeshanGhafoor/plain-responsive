@@ -36,7 +36,7 @@ else {
   return (
     <div>
         
-      <div className=" w-full flex   h-24 justify-between p-4 shadow-2xl fixed   bg-white -mt-44">
+      <div className=" w-full flex   h-24 justify-between p-4 shadow-2xl fixed   bg-white -mt-44 z-50">
         <img src={logo} className="w-32 " ></img>
         <ul className=" justify-around w-4/12  text-gray-500  font-bold hidden mt-5 lg:flex ">
           <li className="text-red-500 cursor-pointer ">Home </li>
