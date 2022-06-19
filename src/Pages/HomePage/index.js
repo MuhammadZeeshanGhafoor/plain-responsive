@@ -14,9 +14,11 @@ import mobile from "../../assets/mobile-alt-solid.svg";
 import globe from "../../assets/globe-solid.svg";
 import Footer from "../../Pages/components/footer/index";
 import "./styles.css"
-
+import AOS from "aos";
+import 'aos/dist/aos.css'
 
 const HomePage = () => {
+  AOS.init()
   return (
     <div style={{ fontFamily: "nunito,sans-sarif" }}>
       <NavigationBar />
@@ -50,7 +52,7 @@ const HomePage = () => {
         {/* 1st div */}
         <div className="w-full flex flex-col items-center sm:flex-row sm:justify-around " >
          {/* card1 */}
-          <div className="border-dashed w-10/12 p-2 flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:h-96 sm:w-5/12 card-animation">
+          <div className="border-dashed w-10/12 p-2 flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:h-96 sm:w-5/12 card-animation" data-aos="fade-right" >
           <div className=" border-8 border-red-300 rounded-full mt-10 hover:border-red-500 circle"><img src={recycle} className="w-12 h-12"></img></div>
             <h1 className="uppercase text-xl font-semibold text-gray-700 mt-10 sm:text-3xl sm:p-4 sm:text-center">
               invest your cash
@@ -61,7 +63,7 @@ const HomePage = () => {
           </div>
 
           {/* card2 */}
-          <div className="border-dashed w-10/12 mt-10  flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:mt-0 sm:h-96 sm:w-5/12 card-animation">
+          <div className="border-dashed w-10/12 mt-10  flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:mt-0 sm:h-96 sm:w-5/12 card-animation" data-aos="flip-up">
             <div className=" border-8 border-red-300 rounded-full mt-10 hover:border-red-500"><img src={business} className="w-12 h-12"></img></div>
             <h1 className="uppercase text-xl font-semibold text-gray-700 mt-10 sm:text-3xl sm:p-4 sm:text-center">
               invest in business
@@ -73,7 +75,7 @@ const HomePage = () => {
           </div>
         </div>
         {/* card3 */}
-        <div className="border-dashed w-10/12 mt-10  flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:w-5/12 sm:h-96 lg:mt-0 lg:mr-3 card-animation">
+        <div className="border-dashed w-10/12 mt-10  flex flex-col items-center rounded-xl border-2 border-gray-300 hover:border-red-500 sm:w-5/12 sm:h-96 lg:mt-0 lg:mr-3 card-animation" data-aos="fade-left">
         <div className=" border-8 border-red-300 rounded-full mt-10 hover:border-red-500"><img src={hand} className="w-12 h-12"></img></div>
             <h1 className="uppercase text-xl font-semibold text-gray-700 mt-10 sm:text-3xl sm:p-4 sm:text-center">
               return profit
@@ -293,6 +295,7 @@ const HomePage = () => {
 
 
               </div>
+              
               
                 <Footer />
     </div>
