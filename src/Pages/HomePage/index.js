@@ -33,7 +33,7 @@ const HomePage = () => {
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna.
           </p>
-          <a href="whatsapp://send?abid=+923084075324&text=Hello%2C%20World!" className="w-40 flex items-center justify-center h-14 bg-gray-700 text-white rounded-full rounded-tr-none mt-10 ">
+          <a href="https://wa.me/923084075324?text=I'm%20inquiring%20about%20the%20apartment%20listing" className="w-40 flex items-center justify-center h-14 bg-gray-700 text-white rounded-full rounded-tr-none mt-10 ">
             Get Started!!!
           </a>
         </div>
